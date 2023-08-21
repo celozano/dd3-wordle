@@ -1,3 +1,9 @@
+// File https://gitlab.com/d2945/words/-/raw/main/words.txt is around 7 MB
+// and it contains a lot of invalid words (more than 5 characters and accented words).
+// I filtered the original file and generated this list using the following condition:
+// const regex = /^[a-zA-Z]+$/;
+// const isValidWord = (word) => regex.test(word) && word.length === 5;
+
 export const WORDS = [
   "abada",
   "abaja",
