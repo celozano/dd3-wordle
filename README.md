@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# Wordle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wordle clone built with React, Typescript and Tailwind CSS.
+![demo-4](https://github.com/celozano/dd3-wordle/assets/2405458/022dd9c9-c6af-4e8e-8522-9554e1fb9559)
+[**Demo**](dd3-wordle.netlify.app)
 
-Currently, two official plugins are available:
+![demo-1](https://github.com/celozano/dd3-wordle/assets/2405458/3f3e04a0-4591-4cb4-a9c0-ebb58c246790)
+![demo-2](https://github.com/celozano/dd3-wordle/assets/2405458/2be04771-ce46-4d16-927d-635e28497631)
+![demo-3](https://github.com/celozano/dd3-wordle/assets/2405458/afcf25b7-9360-41f1-9d3e-de436b9826e3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Build and run
 
-## Expanding the ESLint configuration
+Clone the repository and install:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+➜  ~ cd dd3-wordle
+➜  ~ npm install
+➜  ~ npm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
